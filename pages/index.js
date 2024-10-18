@@ -118,7 +118,7 @@ const Home = (props) => {
                   <div className="home-container13">
                     <img
                       alt="image"
-                      src="d3886f99-cd5b-4a1c-a9f8-7ed916f2064a"
+                      src="/external/onelinkto_ne9s7r.svg"
                       className="home-image14"
                     />
                     <div className="home-container14">
