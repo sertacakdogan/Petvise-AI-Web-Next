@@ -1032,9 +1032,10 @@ const Features = (props) => {
               width: 100%;
               border-color: #5a5a5a;
               border-width: 0px;
-              padding-bottom: var(--dl-space-space-unit);
+              padding-bottom: 0px;
               border-left-width: 0px;
-              border-bottom-width: 1px;
+              border-right-width: 0px;
+              border-bottom-width: 0px;
             }
             .features-text12 {
               font-size: 20px;

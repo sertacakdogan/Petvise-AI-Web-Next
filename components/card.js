@@ -87,7 +87,7 @@ Card.defaultProps = {
   description:
     'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium',
   rootClassName: '',
-  icon: '/Icons/group%201316-200w.png',
+  icon: '/Icons/group%201316-200w.webp',
   iconAlt: 'image',
   header: 'Sima Mosbacher',
 }

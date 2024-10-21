@@ -20,7 +20,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Inter;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background: var(--dl-color-gray-white);\n    \n    fill: var(--dl-color-gray-black);\n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: "Baloo 2";\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background: var(--dl-color-gray-white);\n    \n    fill: var(--dl-color-gray-black);\n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
@@ -36,7 +36,17 @@ class CustomDocument extends Document {
           ></link>
           <link
             rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&amp;display=swap"
             data-tag="font"
           ></link>
           <link
@@ -53,10 +63,35 @@ class CustomDocument extends Document {
             rel="stylesheet"
             href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
           ></link>
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html:
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+            }}
+          ></noscript>
         </Head>
         <body>
           <Main></Main>
           <NextScript></NextScript>
+          <script
+            type="text/javascript"
+            src="https://www.googletagmanager.com/gtag/js?id=G-3XGN7MSDZL"
+            async
+          ></script>
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html:
+                "window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('js', new Date());\n        gtag('config', 'G-3XGN7MSDZL');",
+            }}
+          ></script>
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html:
+                "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n        })(window,document,'script','dataLayer','GTM-PKXW6NRZ');",
+            }}
+          ></script>
           <div
             dangerouslySetInnerHTML={{
               __html:

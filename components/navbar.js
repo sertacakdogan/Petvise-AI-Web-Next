@@ -247,7 +247,7 @@ listenForUrlChangesMobileMenu()
 
           @media (max-width: 767px) {
             .navbar-navbar {
-              padding-bottom: var(--dl-space-space-fourunits);
+              padding-bottom: var(--dl-space-space-twounits);
             }
             .navbar-nav-links1 {
               display: none;
@@ -274,6 +274,11 @@ listenForUrlChangesMobileMenu()
               justify-content: center;
             }
           }
+          @media (max-width: 479px) {
+            .navbar-navbar {
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+          }
         `}
       </style>
     </>
@@ -284,7 +289,7 @@ Navbar.defaultProps = {
   imageAlt2: 'image',
   imageAlt: 'image',
   imageSrc1: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
-  imageSrc: '/Icons/hamburger-200h.png',
+  imageSrc: '/Icons/hamburger-200h.webp',
   imageAlt1: 'image',
   rootClassName: '',
   brandingLogo: '68190c35-3626-467c-9bcc-6ea1a88a9fe9',

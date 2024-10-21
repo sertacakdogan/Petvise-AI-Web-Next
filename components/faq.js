@@ -12,16 +12,26 @@ const FAQ = (props) => {
         >
           <div className="faq-details1">
             <span className="faq-text10">
-              <span>Is Petvise AI a substitute for real veterinary care?</span>
+              <span>
+                What is Petvise AI and how can it help me as a pet owner?
+              </span>
               <br></br>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
             </span>
-            <span data-role="accordion-content" className="faq-text13">
-              <span className="faq-text14">
-                No, Petvise AI is not a substitute for real veterinary care.
-                While it provides valuable insights and personalized advice, it
-                is designed to complement—not replace—professional veterinary
-                services. For medical emergencies or serious health concerns,
-                always consult a licensed veterinarian.
+            <span data-role="accordion-content" className="faq-text14">
+              <span className="faq-text15">
+                Petvise AI is an AI-powered pet care assistant that offers
+                expert advice on your pet’s physical and mental health, diet,
+                and general well-being. With over 15 specialized AI tools,
+                including a virtual vet, nutritionist, and behaviorist, Petvise
+                AI helps decode your pet&apos;s body language, recommend
+                personalized care, and ensure your pet stays healthy and happy.
               </span>
               <span>
                 <span
@@ -43,27 +53,17 @@ const FAQ = (props) => {
           className="faq-element2 accordion-element"
         >
           <div className="faq-details2">
-            <span className="faq-text16">
-              <span>
-                What is Petvise AI and how can it help me as a pet owner?
-              </span>
+            <span className="faq-text17">
+              <span>Is Petvise AI a substitute for real veterinary care?</span>
               <br></br>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
             </span>
             <span data-role="accordion-content" className="faq-text20">
               <span className="faq-text21">
-                Petvise AI is an AI-powered pet care assistant that offers
-                expert advice on your pet’s physical and mental health, diet,
-                and general well-being. With over 15 specialized AI tools,
-                including a virtual vet, nutritionist, and behaviorist, Petvise
-                AI helps decode your pet&apos;s body language, recommend
-                personalized care, and ensure your pet stays healthy and happy.
+                No, Petvise AI is not a substitute for real veterinary care.
+                While it provides valuable insights and personalized advice, it
+                is designed to complement—not replace—professional veterinary
+                services. For medical emergencies or serious health concerns,
+                always consult a licensed veterinarian.
               </span>
               <span>
                 <span
@@ -120,15 +120,15 @@ const FAQ = (props) => {
         >
           <div className="faq-details4">
             <span className="faq-text27">
-              <span>What types of inputs does Petvise AI support?</span>
+              <span>Can I use Petvise AI for all types of pets?</span>
               <br></br>
             </span>
             <span data-role="accordion-content" className="faq-text30">
               <span className="faq-text31">
-                Currently, Petvise AI supports both text and image inputs. You
-                can describe symptoms or upload photos to get personalized
-                insights. Video support is coming soon, and our team is actively
-                working on integrating it.
+                Yes! Our AI models are trained on a vast and reliable database
+                covering over 1,000 species and 9,000 breeds. Whether you have a
+                dog, cat, bird, fish, or an exotic pet, Petvise AI can provide
+                personalized advice tailored to your pet’s care.
               </span>
               <span>
                 <span
@@ -151,15 +151,23 @@ const FAQ = (props) => {
         >
           <div className="faq-details5">
             <span className="faq-text33">
-              <span>Can I use Petvise AI for all types of pets?</span>
+              <span>Is Petvise AI has a free plan available?</span>
               <br></br>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
             </span>
-            <span data-role="accordion-content" className="faq-text36">
-              <span className="faq-text37">
-                Yes! Our AI models are trained on a vast and reliable database
-                covering over 1,000 species and 9,000 breeds. Whether you have a
-                dog, cat, bird, fish, or an exotic pet, Petvise AI can provide
-                personalized advice tailored to your pet’s care.
+            <span data-role="accordion-content" className="faq-text37">
+              <span className="faq-text38">
+                Yes, Petvise AI offers a free trial! Currently, all premium
+                features are available for free for a limited time. Normally, we
+                offer both monthly and yearly subscription options for premium
+                features, so be sure to take advantage of this offer while it
+                lasts.
               </span>
               <span>
                 <span
@@ -181,24 +189,16 @@ const FAQ = (props) => {
           className="faq-element6 accordion-element"
         >
           <div className="faq-details6">
-            <span className="faq-text39">
-              <span>Is Petvise AI has a free plan available?</span>
+            <span className="faq-text40">
+              <span>What types of inputs does Petvise AI support?</span>
               <br></br>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
             </span>
             <span data-role="accordion-content" className="faq-text43">
               <span className="faq-text44">
-                Yes, Petvise AI offers a free trial! Currently, all premium
-                features are available for free for a limited time. Normally, we
-                offer both monthly and yearly subscription options for premium
-                features, so be sure to take advantage of this offer while it
-                lasts.
+                Currently, Petvise AI supports both text and image inputs. You
+                can describe symptoms or upload photos to get personalized
+                insights. Video support is coming soon, and our team is actively
+                working on integrating it.
               </span>
               <span>
                 <span
@@ -251,12 +251,14 @@ const FAQ = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq-text13 {
-            color: rgb(204, 204, 204);
-            font-family: 'Poppins';
-            line-height: 28px;
-          }
           .faq-text14 {
+            color: rgb(204, 204, 204);
+            width: 100%;
+            font-family: Poppins;
+            line-height: 24px;
+            user-select: text;
+          }
+          .faq-text15 {
             color: var(--dl-color-text-primarytext);
           }
           .faq-icon10 {
@@ -279,7 +281,7 @@ const FAQ = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq-text16 {
+          .faq-text17 {
             fill: var(--dl-color-primary-secondary);
             color: var(--dl-color-primary-secondary);
             width: 100%;
@@ -291,10 +293,8 @@ const FAQ = (props) => {
           }
           .faq-text20 {
             color: rgb(204, 204, 204);
-            width: 100%;
-            font-family: Poppins;
-            line-height: 24px;
-            user-select: text;
+            font-family: 'Poppins';
+            line-height: 28px;
           }
           .faq-text21 {
             color: var(--dl-color-text-primarytext);
@@ -320,7 +320,6 @@ const FAQ = (props) => {
             justify-content: center;
           }
           .faq-text23 {
-            fill: var(--dl-color-primary-secondary);
             color: var(--dl-color-primary-secondary);
             font-size: 20px;
             font-style: normal;
@@ -370,10 +369,8 @@ const FAQ = (props) => {
           }
           .faq-text30 {
             color: rgb(204, 204, 204);
-            width: 100%;
-            font-family: Poppins;
+            font-family: 'Poppins';
             line-height: 28px;
-            user-select: text;
           }
           .faq-text31 {
             color: var(--dl-color-text-primarytext);
@@ -408,12 +405,12 @@ const FAQ = (props) => {
             font-weight: 500;
             line-height: 28px;
           }
-          .faq-text36 {
+          .faq-text37 {
             color: rgb(204, 204, 204);
             font-family: 'Poppins';
             line-height: 28px;
           }
-          .faq-text37 {
+          .faq-text38 {
             color: var(--dl-color-text-primarytext);
           }
           .faq-icon18 {
@@ -436,7 +433,7 @@ const FAQ = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .faq-text39 {
+          .faq-text40 {
             fill: var(--dl-color-primary-secondary);
             color: var(--dl-color-primary-secondary);
             width: 100%;
@@ -448,8 +445,10 @@ const FAQ = (props) => {
           }
           .faq-text43 {
             color: rgb(204, 204, 204);
-            font-family: 'Poppins';
+            width: 100%;
+            font-family: Poppins;
             line-height: 28px;
+            user-select: text;
           }
           .faq-text44 {
             color: var(--dl-color-text-primarytext);
@@ -465,7 +464,7 @@ const FAQ = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
-            .faq-text16 {
+            .faq-text17 {
               font-size: 16px;
               line-height: 24px;
             }
@@ -481,7 +480,7 @@ const FAQ = (props) => {
               font-size: 16px;
               line-height: 24px;
             }
-            .faq-text39 {
+            .faq-text40 {
               font-size: 16px;
               line-height: 24px;
             }

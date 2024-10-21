@@ -10,8 +10,8 @@ import Features from '../components/features'
 import GetStarted1 from '../components/get-started1'
 import Mark from '../components/mark'
 import Review from '../components/review'
-import FAQ from '../components/faq'
-import Section from '../components/section'
+import FAQ14 from '../components/faq14'
+import FooterDownload from '../components/footer-download'
 
 const Home = (props) => {
   return (
@@ -39,16 +39,16 @@ const Home = (props) => {
           />
         </Head>
         <Navbar
+          imageAlt2="Petvise AI Logo"
           imageSrc2="/Branding/logo%2Bhorizontatext.svg"
           brandingLogo="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           rootClassName="navbarroot-class-name"
-          imageAlt2="Petvise AI Logo"
         ></Navbar>
         <section className="home-section10">
           <div className="home-hero">
             <div className="home-content1">
               <main className="home-main1">
-                <header className="home-header10">
+                <header className="home-header1">
                   <h1 className="home-heading10">
                     <span>
                       Ensure your pet&apos;s wellness
@@ -60,7 +60,7 @@ const Home = (props) => {
                     </span>
                     <span className="home-text101">with </span>
                     <br className="home-text102"></br>
-                    <span className="home-text103">AI-driven care.</span>
+                    <span className="home-text103">AI-powered care.</span>
                   </h1>
                   <span className="home-caption1">
                     <span className="home-text104">
@@ -118,7 +118,7 @@ const Home = (props) => {
                   <div className="home-container13">
                     <img
                       alt="image"
-                      src="/external/onelinkto_ne9s7r.svg"
+                      src="d3886f99-cd5b-4a1c-a9f8-7ed916f2064a"
                       className="home-image14"
                     />
                     <div className="home-container14">
@@ -131,21 +131,25 @@ const Home = (props) => {
               </div>
               <img
                 alt="image"
-                src="/Screens/home%20-%20mental-600w.webp"
+                sizes="(min-width: 768px) 800px, 480px"
+                src="/Screens/home-physical-700h.webp"
+                srcSet="/Screens//home-physical-700h.webp 800w, /Screens/home-physical-mobile.webp 480w"
                 className="home-image15"
               />
             </div>
             <div className="home-image16">
               <img
                 alt="image"
-                src="/Screens/home%20-%20mental-600w.webp"
+                sizes="(min-width: 768px) 800px, 480px"
+                src="/Screens/home-physical-700h.webp"
+                srcSet="/Screens//home-physical-700h.webp 800w, /Screens/home-physical-mobile.webp 480w"
                 className="home-image17"
               />
             </div>
           </div>
         </section>
         <section className="home-section11">
-          <header className="home-header11">
+          <header className="home-header2">
             <h2 className="home-text111">
               <span>
                 Got you covered for
@@ -323,7 +327,7 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-heading11">
-                <div className="home-header12">
+                <div className="home-header3">
                   <h2 className="home-heading12 section-heading">
                     Reliable Pet Advice, When You Need It Most
                   </h2>
@@ -349,7 +353,7 @@ const Home = (props) => {
           </div>
         </section>
         <section className="home-section14">
-          <header className="home-header13">
+          <header className="home-header4">
             <h2 className="home-text146">
               <span className="home-text147">
                 Experience the future of pet-care.
@@ -438,7 +442,7 @@ const Home = (props) => {
                   </span>
                 </header>
                 <main className="home-heading15">
-                  <header className="home-header14">
+                  <header className="home-header5">
                     <h2 className="home-heading16 section-heading">
                       <span className="home-text163">
                         Advice via
@@ -539,7 +543,7 @@ const Home = (props) => {
           </section>
         </section>
         <section className="home-section17">
-          <header className="home-header15">
+          <header className="home-header6">
             <header className="home-left1">
               <span className="home-section18 section-head">Testimonials</span>
               <h2 className="home-heading17 section-heading">
@@ -594,7 +598,7 @@ const Home = (props) => {
                     </span>
                   </Fragment>
                 }
-                avatarSrc="https://images.pexels.com/photos/3767378/pexels-photo-3767378.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"
+                avatarSrc="https://images.pexels.com/photos/3767378/pexels-photo-3767378.jpeg"
                 position1={
                   <Fragment>
                     <span className="home-position1">
@@ -611,9 +615,9 @@ const Home = (props) => {
                   <Fragment>
                     <span className="home-quote2">
                       <span>
-                        &quot;I used the Stool Analysis for my Shih Tzu, and
-                        Petvise AI flagged some early signs of digestive
-                        problems. I took the advice to adjust his diet, and
+                        &quot;I used the Stool Analysis for my dog, and Petvise
+                        AI flagged some early signs of digestive problems. I
+                        took the advice to adjust his diet, and
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -747,7 +751,7 @@ const Home = (props) => {
                 position1={
                   <Fragment>
                     <span className="home-position4">
-                      <span>Cockatiel Dad</span>
+                      <span>Cockatiel Mom</span>
                       <br></br>
                     </span>
                   </Fragment>
@@ -800,7 +804,7 @@ const Home = (props) => {
                 position1={
                   <Fragment>
                     <span className="home-position5">
-                      <span>Rescue Dog Mom</span>
+                      <span>Rescue Dog Dad</span>
                       <br></br>
                     </span>
                   </Fragment>
@@ -871,7 +875,7 @@ const Home = (props) => {
             <div className="home-left2 side"></div>
           </div>
           <main className="home-banner">
-            <div className="home-header16">
+            <div className="home-header7">
               <span className="home-section20 section-head">Early Access</span>
               <h2 className="section-heading home-heading18">
                 Join the community of caring pet parents. 
@@ -902,31 +906,135 @@ const Home = (props) => {
             </div>
           </main>
         </section>
-        <section className="home-section21">
-          <header className="home-header17">
-            <span className="home-section22 section-head">FAQ</span>
-            <h2 className="home-heading19 section-heading">
-              Frequently asked questions
-            </h2>
-          </header>
-          <main className="home-accordion">
-            <FAQ rootClassName="fa-qroot-class-name"></FAQ>
-          </main>
-        </section>
-        <Section
+        <FAQ14
+          action1={
+            <Fragment>
+              <span className="home-text239">Contact</span>
+            </Fragment>
+          }
+          content1={
+            <Fragment>
+              <span className="home-text240 thq-body-large">
+                Find the answers to some of the most frequently asked questions
+                below. If you don’t see what you’re looking for, feel free to
+                reach out!
+              </span>
+            </Fragment>
+          }
+          heading1={
+            <Fragment>
+              <span className="home-text241 thq-heading-2">FAQs</span>
+            </Fragment>
+          }
+          faq3Answer={
+            <Fragment>
+              <span className="home-text242 thq-body-small">
+                Petvise AI generates responses based on the information you
+                provide about your pet, such as species, breed, age, and other
+                characteristics, along with your lifestyle and pet-care
+                preferences. The AI tailors its advice to meet both your pet’s
+                needs and your unique care style. You can adjust these inputs at
+                any time, allowing for highly customizable and up-to-date
+                advice.
+              </span>
+            </Fragment>
+          }
+          faq4Answer={
+            <Fragment>
+              <span className="home-text243 thq-body-small">
+                Our AI models are trained on a vast and reliable database
+                covering over 1,000 species and 9,000 breeds. Whether you have a
+                dog, cat, bird, fish, or an exotic pet, Petvise AI can provide
+                personalized advice tailored to your pet’s care.
+              </span>
+            </Fragment>
+          }
+          faq5Answer={
+            <Fragment>
+              <span className="home-text244 thq-body-small">
+                Yes, Petvise AI offers a free trial! Currently, all premium
+                features are available for free for a limited time. Normally, we
+                offer both monthly and yearly subscription options for premium
+                features, so be sure to take advantage of this offer while it
+                lasts.
+              </span>
+            </Fragment>
+          }
+          faq1Question={
+            <Fragment>
+              <span className="home-text245 thq-body-large">
+                What is Petvise AI and how can it help me as a pet owner?
+              </span>
+            </Fragment>
+          }
+          faq2Question={
+            <Fragment>
+              <span className="home-text246 thq-body-large">
+                Is Petvise AI a substitute for real veterinary care?
+              </span>
+            </Fragment>
+          }
+          faq3Question={
+            <Fragment>
+              <span className="home-text247 thq-body-large">
+                How does Petvise AI create personalized responses for my pet and
+                me?
+              </span>
+            </Fragment>
+          }
+          faq4Question={
+            <Fragment>
+              <span className="home-text248 thq-body-large">
+                Can I use Petvise AI for all types of pets?
+              </span>
+            </Fragment>
+          }
+          faq5Question={
+            <Fragment>
+              <span className="home-text249 thq-body-large">
+                How do I get started with Petvise AI?
+              </span>
+            </Fragment>
+          }
+          rootClassName="faq14root-class-name"
+          faq1Answer={
+            <Fragment>
+              <span className="home-text250 thq-body-small">
+                Petvise AI is an AI-powered pet care assistant that offers
+                expert advice on your pet’s physical and mental health, diet,
+                and general well-being. With over 15 specialized AI tools,
+                including a virtual vet, nutritionist, and behaviorist, Petvise
+                AI helps decode your pet&apos;s body language, recommend
+                personalized care, and ensure your pet stays healthy and happy.
+              </span>
+            </Fragment>
+          }
+          faq2Answer={
+            <Fragment>
+              <span className="home-text251 thq-body-small">
+                No, Petvise AI is not a substitute for real veterinary care.
+                While it provides valuable insights and personalized advice, it
+                is designed to complement—not replace—professional veterinary
+                services. For medical emergencies or serious health concerns,
+                always consult a licensed veterinarian.
+              </span>
+            </Fragment>
+          }
+        ></FAQ14>
+        <FooterDownload
           text={
             <Fragment>
-              <span className="home-text239">Download for iOS</span>
+              <span className="home-text252">Download for iOS</span>
             </Fragment>
           }
           text1={
             <Fragment>
-              <span className="home-text240">Download for Android</span>
+              <span className="home-text253">Download for Android</span>
             </Fragment>
           }
           heading={
             <Fragment>
-              <span className="home-heading20 section-heading">
+              <span className="home-heading19 section-heading">
                 <span>
                   Ditch endless search and get instant, reliable pet care advice
                   with Petvise AI.
@@ -936,7 +1044,7 @@ const Home = (props) => {
             </Fragment>
           }
           sectionId="Dowload"
-        ></Section>
+        ></FooterDownload>
         <footer className="home-footer">
           <div className="home-content5">
             <main className="home-main-content">
@@ -1021,71 +1129,38 @@ const Home = (props) => {
                   </div>
                 </header>
                 <header className="home-categories">
-                  <div className="home-category1">
-                    <div className="home-header18">
-                      <span className="home-text243 footer-header">
-                        Content
-                      </span>
+                  <div className="home-category">
+                    <div className="home-header8">
+                      <span className="home-text256 footer-header">About</span>
                     </div>
-                    <div className="home-links1">
-                      <a
-                        href="https://www.petvise.ai/guides"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        className="home-text244 footer-link"
-                      >
-                        Pet Care Guides
-                      </a>
-                      <a
-                        href="https://www.petvise.ai/blog"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        className="home-text245 footer-link"
-                      >
-                        Blog
-                      </a>
-                    </div>
-                  </div>
-                  <div className="home-category2">
-                    <div className="home-header19">
-                      <span className="home-text246 footer-header">About</span>
-                    </div>
-                    <div className="home-links2">
-                      <a
-                        href="https://www.petvise.ai/terms-and-conditions"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        className="home-text247 footer-link"
-                      >
-                        Terms &amp; Conditions
-                      </a>
-                      <a
-                        href="https://www.petvise.ai/privacy-policy"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        className="home-text248 footer-link"
-                      >
-                        Privacy Policy
-                      </a>
+                    <div className="home-links">
+                      <Link href="/terms-and-conditions">
+                        <a className="home-link7 footer-link">
+                          Terms &amp; Conditions
+                        </a>
+                      </Link>
+                      <Link href="/terms-and-conditions">
+                        <a className="home-link8 footer-link">Privacy Policy</a>
+                      </Link>
                     </div>
                     <a
                       href="mailto:hey@petvise.ai?subject=Contact - Petvise AI"
-                      className="home-text249 footer-link"
+                      className="home-text259 footer-link"
                     >
-                      hey@petvise.ai
+                      contact@petvise.ai
                     </a>
                   </div>
                 </header>
               </div>
               <section className="home-copyright1">
-                <span className="home-text250">
+                <span className="home-text260">
                   © 2024 RexaHub. All Rights Reserved.
                 </span>
               </section>
             </main>
             <main className="home-subscribe">
               <main className="home-main5">
-                <h1 className="home-heading21">Subscribe to our newsletter</h1>
+                <h1 className="home-heading20">Subscribe to our newsletter</h1>
                 <div className="home-input-field">
                   <input
                     type="email"
@@ -1093,8 +1168,8 @@ const Home = (props) => {
                     className="home-textinput input"
                   />
                   <div className="home-buy button">
-                    <span className="home-text251">-&gt;</span>
-                    <span className="home-text252">
+                    <span className="home-text261">-&gt;</span>
+                    <span className="home-text262">
                       <span>Subscribe now</span>
                       <br></br>
                     </span>
@@ -1107,7 +1182,7 @@ const Home = (props) => {
               </h1>
             </main>
             <section className="home-copyright2">
-              <span className="home-text255">
+              <span className="home-text265">
                 © 2022 latitude. All Rights Reserved.
               </span>
             </section>
@@ -1240,7 +1315,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-header10 {
+          .home-header1 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1254,20 +1329,12 @@ Here's what the above is doing:
             font-weight: 600;
             line-height: 1.5;
           }
-          .home-text101 {
-            color: var(--dl-color-primary-primary);
-          }
-          .home-text102 {
-            color: var(--dl-color-primary-alternate);
-            background-color: var(--dl-color-primary-primary);
-          }
           .home-text103 {
-            color: var(--dl-color-primary-primary);
             background-color: var(--dl-color-primary-accent4);
           }
           .home-caption1 {
-            fill: var(--dl-color-text-darkertext);
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-size: 20px;
             font-family: Poppins;
             line-height: 30px;
@@ -1338,10 +1405,10 @@ Here's what the above is doing:
             line-height: 24px;
           }
           .home-image13 {
-            top: 134px;
+            top: 114px;
             right: 6px;
             width: 562px;
-            height: auto;
+            height: 668px;
             margin: auto;
             display: flex;
             position: absolute;
@@ -1431,7 +1498,7 @@ Here's what the above is doing:
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-header11 {
+          .home-header2 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1467,7 +1534,8 @@ Here's what the above is doing:
             background-color: var(--dl-color-primary-accent4);
           }
           .home-text118 {
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             text-align: center;
             font-family: 'Poppins';
             line-height: 28px;
@@ -1658,7 +1726,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header12 {
+          .home-header3 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1669,8 +1737,8 @@ Here's what the above is doing:
             color: var(--dl-color-primary-primary);
           }
           .home-paragraph1 {
-            fill: var(--dl-color-text-darkertext);
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-family: Poppins;
             line-height: 28px;
           }
@@ -1692,7 +1760,7 @@ Here's what the above is doing:
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-header13 {
+          .home-header4 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -1800,8 +1868,8 @@ Here's what the above is doing:
             background-color: var(--dl-color-background-primarybg);
           }
           .home-paragraph2 {
-            fill: var(--dl-color-text-darkertext);
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
           }
           .home-text162 {
             color: var(--dl-color-background-primarybg);
@@ -1873,7 +1941,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header14 {
+          .home-header5 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
@@ -1894,7 +1962,8 @@ Here's what the above is doing:
             color: var(--dl-color-primary-secondary);
           }
           .home-paragraph3 {
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
           }
           .home-checkmarks {
             gap: var(--dl-space-space-unit);
@@ -1976,7 +2045,7 @@ Here's what the above is doing:
             justify-content: center;
             border-top-width: 0px;
           }
-          .home-header15 {
+          .home-header6 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -2008,7 +2077,8 @@ Here's what the above is doing:
             justify-content: center;
           }
           .home-paragraph4 {
-            color: var(--dl-color-text-darkertext);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             text-align: center;
           }
           .home-cards {
@@ -2289,7 +2359,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #292929;
           }
-          .home-header16 {
+          .home-header7 {
             gap: var(--dl-space-space-unit);
             width: 564px;
             display: flex;
@@ -2337,49 +2407,57 @@ Here's what the above is doing:
             line-height: 24px;
             white-space: nowrap;
           }
-          .home-section21 {
-            gap: var(--dl-space-space-fiveunits);
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: 120px;
-            border-color: var(--dl-color-gray-700);
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            padding-right: var(--dl-space-space-oneandhalfunits);
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: var(--dl-color-background-secondarybg);
-            border-top-width: 1px;
-          }
-          .home-header17 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-section22 {
-            fill: var(--dl-color-primary-teriatery);
-            color: var(--dl-color-primary-teriatery);
-          }
-          .home-heading19 {
-            fill: var(--dl-color-primary-secondary);
-            color: var(--dl-color-primary-secondary);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-threeunits);
-            width: 100%;
-            display: flex;
-            max-width: 800px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
           .home-text239 {
+            display: inline-block;
+          }
+          .home-text240 {
+            display: inline-block;
+          }
+          .home-text241 {
+            display: inline-block;
+          }
+          .home-text242 {
+            display: inline-block;
+          }
+          .home-text243 {
+            display: inline-block;
+          }
+          .home-text244 {
+            display: inline-block;
+          }
+          .home-text245 {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text246 {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text247 {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text248 {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text249 {
+            color: var(--dl-color-gray-black);
+            display: inline-block;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-text250 {
+            display: inline-block;
+          }
+          .home-text251 {
+            display: inline-block;
+          }
+          .home-text252 {
             color: #ffffff;
             display: inline-block;
             font-size: 16px;
@@ -2388,7 +2466,7 @@ Here's what the above is doing:
             font-weight: 500;
             line-height: 24px;
           }
-          .home-text240 {
+          .home-text253 {
             color: rgb(255, 255, 255);
             display: inline-block;
             font-size: 16px;
@@ -2397,7 +2475,7 @@ Here's what the above is doing:
             font-weight: 500;
             line-height: 24px;
           }
-          .home-heading20 {
+          .home-heading19 {
             display: inline-block;
           }
           .home-footer {
@@ -2499,40 +2577,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-category1 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header18 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-text243 {
-            color: var(--dl-color-primary-primary);
-          }
-          .home-links1 {
-            gap: var(--dl-space-space-unit);
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text244 {
-            color: var(--dl-color-text-secondarytext);
-            text-decoration: none;
-          }
-          .home-text245 {
-            color: var(--dl-color-text-secondarytext);
-            text-decoration: none;
-          }
-          .home-category2 {
+          .home-category {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -2541,32 +2586,32 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-header19 {
+          .home-header8 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: center;
           }
-          .home-text246 {
+          .home-text256 {
             color: var(--dl-color-primary-primary);
           }
-          .home-links2 {
+          .home-links {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text247 {
+          .home-link7 {
             color: var(--dl-color-text-secondarytext);
             text-decoration: none;
           }
-          .home-text248 {
+          .home-link8 {
             color: var(--dl-color-text-secondarytext);
             text-decoration: none;
           }
-          .home-text249 {
+          .home-text259 {
             color: var(--dl-color-text-secondarytext);
             text-decoration: none;
           }
@@ -2579,7 +2624,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-text250 {
+          .home-text260 {
             fill: var(--dl-color-text-darkertext);
             color: var(--dl-color-text-darkertext);
             font-size: 14px;
@@ -2602,7 +2647,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-heading21 {
+          .home-heading20 {
             fill: var(--dl-color-primary-primary);
             color: var(--dl-color-primary-primary);
             font-size: 20px;
@@ -2639,7 +2684,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-unit);
             background-color: var(--dl-color-primary-tertiarydark);
           }
-          .home-text251 {
+          .home-text261 {
             color: rgb(12, 16, 12);
             display: none;
             font-size: 16px;
@@ -2648,7 +2693,7 @@ Here's what the above is doing:
             font-weight: 500;
             line-height: 24px;
           }
-          .home-text252 {
+          .home-text262 {
             fill: var(--dl-color-primary-alternate);
             color: var(--dl-color-primary-alternate);
             display: flex;
@@ -2677,7 +2722,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-text255 {
+          .home-text265 {
             color: #c4c4c4;
             width: 100%;
             font-size: 14px;
@@ -2738,7 +2783,9 @@ Here's what the above is doing:
               flex-direction: column;
             }
             .home-image17 {
-              width: 600px;
+              width: 339px;
+              height: 685px;
+              align-self: center;
             }
             .home-text111 {
               text-align: center;
@@ -2779,18 +2826,34 @@ Here's what the above is doing:
               flex-direction: column;
               justify-content: center;
             }
+            .home-section20 {
+              align-self: center;
+            }
+            .home-heading18 {
+              text-align: center;
+            }
+            .home-description {
+              text-align: center;
+            }
             .home-buttons2 {
               width: 100%;
               flex-direction: column;
             }
             .home-book-demo {
-              width: 100%;
+              width: auto;
             }
             .home-content5 {
               gap: var(--dl-space-space-threeunits);
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
+            }
+            .home-content6 {
+              width: auto;
+              align-self: stretch;
+            }
+            .home-main4 {
+              padding-right: 20px;
             }
             .home-copyright1 {
               display: none;
@@ -2807,10 +2870,24 @@ Here's what the above is doing:
             }
             .home-heading10 {
               font-size: 40px;
+              text-align: center;
+              font-family: Poppins;
+            }
+            .home-text101 {
+              color: var(--dl-color-primary-primary);
+            }
+            .home-text102 {
+              color: var(--dl-color-primary-alternate);
+              background-color: var(--dl-color-primary-primary);
+            }
+            .home-text103 {
+              color: var(--dl-color-primary-primary);
+              background-color: var(--dl-color-primary-accent4);
             }
             .home-caption1 {
               color: rgb(255, 255, 255);
               font-size: 16px;
+              text-align: center;
               font-family: Poppins;
               line-height: 24px;
             }
@@ -2840,7 +2917,7 @@ Here's what the above is doing:
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .home-header11 {
+            .home-header2 {
               margin-top: var(--dl-space-space-fourunits);
             }
             .home-text111 {
@@ -2913,7 +2990,7 @@ Here's what the above is doing:
               gap: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-text252 {
+            .home-text262 {
               color: rgb(12, 16, 12);
               font-size: 16px;
               font-style: normal;
@@ -2923,7 +3000,10 @@ Here's what the above is doing:
             }
           }
           @media (max-width: 479px) {
-            .home-header10 {
+            .home-hero {
+              margin-bottom: var(--dl-space-space-threeunits);
+            }
+            .home-header1 {
               align-items: flex-start;
             }
             .home-heading10 {
@@ -2947,16 +3027,16 @@ Here's what the above is doing:
               color: var(--dl-color-text-darkertext);
             }
             .home-image17 {
-              width: var(--dl-size-size-large);
-              height: auto;
+              width: 157px;
+              height: 317px;
               align-self: center;
             }
             .home-section11 {
               padding-top: var(--dl-space-space-twounits);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-header11 {
-              margin-top: var(--dl-space-space-fourunits);
+            .home-header2 {
+              margin-top: var(--dl-space-space-twounits);
             }
             .home-image19 {
               width: 100%;
@@ -3026,7 +3106,7 @@ Here's what the above is doing:
               color: var(--dl-color-primary-primary);
               text-align: center;
             }
-            .home-header16 {
+            .home-header7 {
               width: 336px;
             }
             .home-heading18 {
@@ -3040,7 +3120,7 @@ Here's what the above is doing:
             .home-textinput {
               flex: 1;
             }
-            .home-text251 {
+            .home-text261 {
               color: rgb(12, 16, 12);
               display: flex;
               font-size: 24px;
@@ -3050,7 +3130,7 @@ Here's what the above is doing:
               line-height: 24px;
               white-space: nowrap;
             }
-            .home-text252 {
+            .home-text262 {
               color: rgb(12, 16, 12);
               display: none;
               font-size: 24px;
