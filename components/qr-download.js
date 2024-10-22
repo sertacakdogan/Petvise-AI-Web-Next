@@ -74,7 +74,7 @@ const QRDownload = (props) => {
 
 QRDownload.defaultProps = {
   rootClassName: '',
-  imageSrc1: 'd3886f99-cd5b-4a1c-a9f8-7ed916f2064a',
+  imageSrc1: '/external/onelinkto_ne9s7r.svg',
   text2: undefined,
   imageAlt1: 'image',
 }
