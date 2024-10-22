@@ -80,7 +80,7 @@ const FooterDownload = (props) => {
                     </span>
                   </Fragment>
                 }
-                imageSrc1="d3886f99-cd5b-4a1c-a9f8-7ed916f2064a"
+                imageSrc1="/external/onelinkto_ne9s7r.svg"
               ></QRDownload>
             </div>
           </header>
